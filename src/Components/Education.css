@@ -1,0 +1,49 @@
+.education-container {
+  box-shadow: 0 0 20px black;
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px 20px;
+}
+
+/* Individual Education Cards */
+.education-card {
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Title and text styles */
+.card-title {
+  color: #000;
+}
+
+.card-subtitle {
+  color: #555;
+}
+
+/* Remove container shadow on mobile */
+@media (max-width: 768px) {
+  .education-container {
+    /* box-shadow: none; */
+    padding: 20px 10px;
+  }
+
+  .education-card {
+    margin-bottom: 15px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-subtitle,
+  .card-text {
+    font-size: 15px;
+  }
+}

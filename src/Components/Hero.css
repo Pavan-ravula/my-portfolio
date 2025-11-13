@@ -1,0 +1,38 @@
+/* .container {
+    height: 400px;
+    width: 300px;
+} */
+
+.blinking-cursor {
+    font-weight: bold;
+    color: #007bff;
+    animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink {
+    from,
+    to {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px black;
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        box-shadow: 0 0 0 black;
+        /* Remove heavy shadow for mobile */
+        margin-top: 10px;
+    }
+}
+
+.container {
+    /* box-Shadow: "0 0 20px black", */
+}

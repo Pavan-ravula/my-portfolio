@@ -1,0 +1,42 @@
+.skill-card {
+  background-color: white;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  box-shadow: 0 4px 15px black;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px black;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive tweak for smaller screens */
+@media (max-width: 768px) {
+  .skill-card {
+    padding: 15px;
+  }
+
+  .icon svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+/* Default desktop styles */
+.skills-container {
+  box-shadow: 0 0 20px black;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Remove shadow on mobile view */
+@media (max-width: 768px) {
+  .skills-container {
+    box-shadow: none;
+  }
+}

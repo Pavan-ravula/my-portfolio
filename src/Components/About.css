@@ -1,0 +1,35 @@
+.about-container {
+  box-shadow: 0 0 20px black;
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px 20px;
+}
+
+.about-card {
+  box-shadow: 0 0 15px black;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Remove container shadow on mobile view */
+@media (max-width: 768px) {
+  .about-container {
+    /* box-shadow: none; */
+    padding: 20px 10px;
+  }
+
+  .about-card {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .list-group-item {
+    font-size: 15px;
+  }
+}
