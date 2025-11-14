@@ -25,7 +25,14 @@ export default function Contact() {
           <div className="col-10 col-md-5 col-lg-3">
             <div className="contact-card card shadow-sm border-0 py-4 h-100 d-flex align-items-center justify-content-center">
               <FaEnvelope size={28} className="mb-3 text-primary" />
-              <span className="fw-semibold">pavanravula1919@gmail.com</span>
+              <a
+                href="mailto:pavanravula9652@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="fw-semibold text-decoration-none text-dark"
+              >
+                pavanravula9652@gmail.com
+              </a>
             </div>
           </div>
 
@@ -50,7 +57,7 @@ export default function Contact() {
             <div className="contact-card card shadow-sm border-0 py-4 h-100 d-flex align-items-center justify-content-center">
               <FaLinkedin size={28} className="mb-3 text-info" />
               <a
-                href="https://www.linkedin.com/posts/mohitdecodes_mern-stack-handwritten-notes-activity-7391039963548700672-THQi?utm_source=share&utm_medium=member_android&rcm=ACoAAFDXoscBf4iJAZGUM-smyQLNWBbt4cWCkKg"
+                href="https://www.linkedin.com/in/r-pavan-kumar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="fw-semibold text-decoration-none text-dark"
