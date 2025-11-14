@@ -49,7 +49,27 @@ export default function Projects() {
                   <a href="#" className="btn btn-primary">
                     Live <FaExternalLinkAlt className="ms-1" />
                   </a>
-                  <a href="#" className="btn btn-dark">
+                  <a href="https://github.com/Pavan-ravula/my-portfolio" className="btn btn-dark">
+                    Code <FaGithub className="ms-1" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="col-md-6 col-lg-5">
+            <div className="card project-card shadow-sm border-0 h-100">
+              <div className="card-body">
+                <h4 className="card-title fw-bold mb-3">E-Learning platform</h4>
+                <p className="card-text text-muted">
+                  Developed with html,javascript,css, Bootstrap and responsive design.  
+                   showcasing skills, projects & contact information.
+                </p>
+                <div className="d-flex gap-2 mt-3 justify-content-center">
+                  <a href="#" className="btn btn-primary">
+                    Live <FaExternalLinkAlt className="ms-1" />
+                  </a>
+                  <a href="https://github.com/Pavan-ravula/e-learningg" className="btn btn-dark">
                     Code <FaGithub className="ms-1" />
                   </a>
                 </div>
